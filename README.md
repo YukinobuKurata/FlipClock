@@ -1,4 +1,5 @@
 # FlipClock.js
+(Japanese localized version)
 
 ### Installation
 
