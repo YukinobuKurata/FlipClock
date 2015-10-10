@@ -673,7 +673,7 @@ var FlipClock;
 		 * The language being used to display labels (string)
 		 */	
 		 
-		language: 'english',
+		language: 'japanese',
 		 
 		/**
 		 * The minimum digits the clock must have
@@ -2778,5 +2778,33 @@ var FlipClock;
 	FlipClock.Lang['zh']      = FlipClock.Lang.Chinese;
 	FlipClock.Lang['zh-cn']   = FlipClock.Lang.Chinese;
 	FlipClock.Lang['chinese'] = FlipClock.Lang.Chinese;
+
+}(jQuery));
+
+(function($) {
+		
+	/**
+	 * FlipClock Japanese Language Pack
+	 *
+	 * This class will used to translate tokens into the Japanese language.
+	 *	
+	 */
+	 
+	FlipClock.Lang.Japanese = {
+		
+		'years'   : '年',
+		'months'  : '月',
+		'days'    : '日',
+		'hours'   : '時',
+		'minutes' : '分',
+		'seconds' : '秒'
+
+	};
+	
+	/* Create various aliases for convenience */
+
+	FlipClock.Lang['jp']      = FlipClock.Lang.Japanese;
+	FlipClock.Lang['ja-jp']   = FlipClock.Lang.Japanese;
+	FlipClock.Lang['japanese'] = FlipClock.Lang.Japanese;
 
 }(jQuery));
